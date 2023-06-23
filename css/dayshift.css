@@ -1,0 +1,38 @@
+.nav-item .link-n {
+    color: #212121; }
+  
+  .nav-item .link-n:hover {
+    padding: 5px;
+    background-color: #ffcc80;
+    transition: .3s;
+    border-radius: 6px; }
+  
+  a {
+    text-decoration: none;
+    color: #212121; }
+  
+  .logo {
+    width: 90px;
+    height: 35px; }
+  
+  .principal .title-tempo {
+    color: #fff;
+    margin-top: 30px;
+    font-size: 22px; }
+  .principal .desc-tempo {
+    color: #fff;
+    font-weight: 500; }
+  .principal .img-tempo1 img {
+    max-width: 500px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 400px;
+    object-fit: cover;
+    border-radius: 7px;
+    margin: 20px auto; }
+  
+  .footer-img {
+    object-fit: cover;
+    width: 200px;
+    height: 200px;
+    border-radius: 5px; }

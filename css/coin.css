@@ -1,0 +1,248 @@
+/* Boot */
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Montserrat', sans-serif;
+}
+
+html,body{height: 100%;}
+body{background-color: #062b45;}
+
+.container {
+  margin: 0 auto;
+  max-width: 1100px;
+  padding: 0 2%; 
+}
+
+.clear{clear: both;}
+
+/*
+	Header e navbar da aplicação
+*/
+
+header{
+	width: 100%;
+	padding: 20px 0;
+	background-color: #1565c0;
+	width: 100%;
+	animation: header 2s infinite;
+}
+
+header .logo img{
+	width: 85px;
+	position: relative;
+	top: -20px;
+	left: -7px;
+	/*z-index: 2;*/
+	float: left; 
+	cursor: pointer;
+}
+
+header .logo h2{
+	display: inline-block;
+	color: white;
+	font-size: 22px;
+	position: relative;
+	top: 2px;
+	left: -10px;
+	cursor: pointer;
+}header .logo h2:hover{
+	color: #ffd54f;
+	transition: 2s;
+}
+
+.title-convert{width: 100%;}
+
+header .title-convert p{
+	float: right;
+	color: white;
+	position: relative;
+	top: -25px;
+	font-size: 20px;
+	text-transform: uppercase;
+	cursor: pointer;
+}header .title-convert p:hover{
+	color: #ffd54f;
+	transition: 2s;
+}
+
+header .title-convert i{
+	color: white;
+	float: right;
+	position: relative;
+	top: -23px;
+	right: 250px;
+	font-size: 20px;
+	cursor: pointer;
+}
+
+/* FIM HEADER E NAVBAR */
+
+/* Front para mostrar os valores e inserir os campos de cada moeda respectiva: */
+
+.welcome{
+	width: 100%;
+	padding: 40px 2%;
+	margin-top: 20px;
+}
+
+.welcome h2{
+	text-align: center;
+	font-size: 22px;
+	border-top: royalblue;
+	color: royalblue;
+	font-weight: bold;
+	position: relative;
+}
+
+.line{
+	background-color: blue;
+	text-align: center;
+	padding: 2px 2%;
+	margin-top: 25px;
+}
+
+.welcome i{
+	font-size: 20px;
+	color: royalblue;
+	position: relative;
+	text-align: center;
+	margin-left: 10px;
+	cursor: pointer;
+}
+
+main {
+	padding: 10px;
+	display: flex;
+	font-size: 14px;
+}main div{padding-bottom: 4px;}
+
+.painel {
+	margin-right: 10px;
+	border-width: thin;
+	border-style: solid;
+	border-color: #424242;
+	flex-grow: 1;
+	border-radius: 8px;
+	max-width: 600px;
+}
+
+label {
+	font-weight: bold;
+}
+
+.painel input[type=text]{
+	padding: 10px 2%;
+}.painel input[type=number]:focus{outline: 0;}
+
+.campoTexto {
+	width: 100%;
+	padding: 8px 8px;
+	margin: 20px 0;
+	box-sizing: border-box;
+	border-color: #D9EDF7;
+	border-radius: 4px;
+	text-decoration: none;
+}
+
+.conteudo-painel {
+	padding: 15px;
+}
+
+.conteudo-painel p{
+	margin-top: 10px;
+	font-weight: bold;
+}
+
+.painel ul li{
+	margin-top: 10px;
+	margin-left: 10px;
+}
+
+.painel .mods i{
+	font-size: 22px;
+	color: yellowgreen;
+	margin-top: 20px;
+	padding: 10px 20px;
+	cursor: pointer;
+}
+
+main h2 {
+	background-color: #424242;
+	color: white;
+	margin: 0;
+	padding: 12px;
+	text-align: center;
+	font-weight: bold;
+	font-size: 16px;
+}
+
+.botao {
+	background-color: #286090;
+	color: #FFFEFA;
+	text-align: center;
+	border-radius: 4px;
+	padding: 10px 20px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	width: 100px;
+	display: block;
+	cursor: pointer;
+}.botao:hover{background-color: #424242;color: white;transition: 1.5s;}
+
+.today{margin-top: 37px;}
+
+.sucesso {
+	padding: 10px;
+	border-collapse: collapse;
+	border-color: #DFF0D8;
+	background-color: #DFF0D8;
+	color: #3C763D;
+
+}
+
+.erro {
+	padding: 10px;
+	flex-grow: 1;
+	border-color: #F2DEDE;
+	background-color: #F2DEDE;
+	color: #A94442;
+	font-weight: bold;
+}
+
+footer p{
+	width:100%;
+	text-align: center;
+	padding:10px 0;
+	background: #424242;
+	color:white;
+	font-size:18px;
+	position:absolute;
+	bottom:0;
+}
+
+/*Fim do front para mostrar os valores e inserir os campos de cada moeda respectiva*/
+
+@keyframes header{
+  25% {
+    background-color: #0d47a1; }
+  50% {
+    background-color: #212121; }
+}
+
+/* Responsivo */
+
+@media screen and (max-width: 635px){
+	main{display: block;}
+	.painel{width: 100%;margin-top: 20px;}
+
+	header .logo{top: 10px;display: block;}
+	header .logo img{display: block;position: relative;}
+	.title-convert{display: none;}
+
+	footer{display: none;}
+}
+
+/* Fim responsivo */

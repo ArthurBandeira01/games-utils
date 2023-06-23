@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#particles-js{
+    width: 100%;
+    height: 100vh;
+    background-color: #27208c;
+}
+
+.card-games{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 400px;
+    height: 600px;
+    border-radius: 6px;
+    background-color: #fff;
+    padding: 1em;
+}

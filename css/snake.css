@@ -1,0 +1,12 @@
+body{
+    background-color: #333;
+}
+#gameCanvas {
+    background-color: black;
+    border: 1px solid white;
+}
+#scoreContainer {
+    color: white;
+    font-size: 20px;
+    margin-top: 10px;
+}

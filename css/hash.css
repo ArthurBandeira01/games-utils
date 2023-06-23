@@ -1,0 +1,31 @@
+body {
+    background-color: #ee6e73; }
+
+  .title {
+    background-color: #333;
+    padding: 10px;
+    border-radius: 5px; }
+
+  #mostrador {
+    width: 252px;
+    height: 80px;
+    margin: 50px auto; }
+
+  .espaco {
+    width: 80px;
+    height: 80px;
+    border: 2px solid #fff;
+    float: left;
+    text-align: center;
+    padding-top: 20px; }
+    .espaco img {
+      width: 40px;
+      height: 40px; }
+
+  .tabuleiro {
+    margin: 40px auto;
+    width: 252px;
+    height: 252px; }
+
+  .reset {
+    margin: 20px auto; }
